@@ -19,7 +19,6 @@
   --color-muted-foreground: var(--muted-foreground);
 
   --color-accent: var(--accent);
-  --color-accent-soft: var(--accent-soft);
   --color-accent-foreground: var(--accent-foreground);
 
   --color-destructive: var(--destructive);
@@ -33,6 +32,7 @@
 
   --color-popover: var(--popover);
   --color-popover-foreground: var(--popover-foreground);
+
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -41,28 +41,13 @@
   --color-sidebar-primary: var(--sidebar-primary);
   --color-sidebar-foreground: var(--sidebar-foreground);
   --color-sidebar: var(--sidebar);
+
   --color-chart-5: var(--chart-5);
   --color-chart-4: var(--chart-4);
   --color-chart-3: var(--chart-3);
   --color-chart-2: var(--chart-2);
   --color-chart-1: var(--chart-1);
-  --color-ring: var(--ring);
-  --color-input: var(--input);
-  --color-border: var(--border);
-  --color-destructive: var(--destructive);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-accent: var(--accent);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-muted: var(--muted);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-secondary: var(--secondary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-primary: var(--primary);
-  --color-primary-hover: var(--primary-hover);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-popover: var(--popover);
-  --color-card-foreground: var(--card-foreground);
-  --color-card: var(--card);
+
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
@@ -70,130 +55,140 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-space-grotesk);
 }
+
+/* =========================================================
+   SprintPilot — Ink + Paper
+   ========================================================= */
 
 :root {
   /* Core */
-  --background: #f6f4ef;
-  --foreground: #172121;
+  --background: #fafaf8;
+  --foreground: #111111;
 
   /* Surfaces */
-  --card: #fcfbf7;
-  --card-foreground: #172121;
+  --card: #ffffff;
+  --card-foreground: #111111;
 
-  --popover: #fcfbf7;
-  --popover-foreground: #172121;
+  --popover: #ffffff;
+  --popover-foreground: #111111;
 
   /* Brand */
-  --primary: #176b67;
-  --primary-hover: #10534f;
+  --primary: #111111;
+  --primary-hover: #2a2a2a;
   --primary-foreground: #ffffff;
 
-  /* Soft brand surface */
-  --secondary: #dcedea;
-  --secondary-foreground: #176b67;
+  /* Secondary */
+  --secondary: #f2f2ef;
+  --secondary-foreground: #242424;
 
   /* Muted */
-  --muted: #e9e6dd;
-  --muted-foreground: #6e716b;
+  --muted: #f2f2ef;
+  --muted-foreground: #737373;
 
-  /* Accent / signal */
-  --accent: #e76f51;
-  --accent-soft: #f8ded7;
-  --accent-foreground: #172121;
+  /* Accent */
+  --accent: #e8e8e4;
+  --accent-foreground: #111111;
 
   /* Status */
-  --destructive: #b94a48;
+  --destructive: #b42318;
 
   /* Forms */
-  --border: #d9d6cc;
-  --input: #d9d6cc;
-  --ring: #176b67;
+  --border: #e5e5e2;
+  --input: #d9d9d5;
+  --ring: #111111;
 
   /* Data visualization */
-  --chart-1: #176b67;
-  --chart-2: #e76f51;
-  --chart-3: #4f7c5a;
-  --chart-4: #c58b32;
-  --chart-5: #6e716b;
+  --chart-1: #111111;
+  --chart-2: #737373;
+  --chart-3: #a3a3a0;
+  --chart-4: #525252;
+  --chart-5: #d4d4d0;
 
   /* Shape */
   --radius: 0.625rem;
 
   /* Sidebar */
-  --sidebar: #fcfbf7;
-  --sidebar-foreground: #172121;
-  --sidebar-primary: #176b67;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #111111;
+  --sidebar-primary: #111111;
   --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #e9e6dd;
-  --sidebar-accent-foreground: #172121;
-  --sidebar-border: #d9d6cc;
-  --sidebar-ring: #176b67;
+  --sidebar-accent: #f2f2ef;
+  --sidebar-accent-foreground: #111111;
+  --sidebar-border: #e5e5e2;
+  --sidebar-ring: #111111;
 }
+
+/* =========================================================
+   SprintPilot — Dark Theme
+   ========================================================= */
 
 .dark {
   /* Core */
-  --background: #121918;
-  --foreground: #f3f1e9;
+  --background: #111111;
+  --foreground: #f5f5f2;
 
   /* Surfaces */
-  --card: #1a2221;
-  --card-foreground: #f3f1e9;
+  --card: #191919;
+  --card-foreground: #f5f5f2;
 
-  --popover: #1a2221;
-  --popover-foreground: #f3f1e9;
+  --popover: #191919;
+  --popover-foreground: #f5f5f2;
 
   /* Brand */
-  --primary: #4fa6a0;
-  --primary-hover: #67b7b1;
-  --primary-foreground: #10201f;
+  --primary: #f5f5f2;
+  --primary-hover: #ffffff;
+  --primary-foreground: #111111;
 
-  /* Soft brand surface */
-  --secondary: #22302e;
-  --secondary-foreground: #c5e3df;
+  /* Secondary */
+  --secondary: #242424;
+  --secondary-foreground: #f0f0ed;
 
   /* Muted */
-  --muted: #222c2a;
-  --muted-foreground: #a6ada8;
+  --muted: #242424;
+  --muted-foreground: #a3a3a0;
 
-  /* Accent / signal */
-  --accent: #f1846a;
-  --accent-soft: #3a2723;
-  --accent-foreground: #fff5f1;
+  /* Accent */
+  --accent: #30302e;
+  --accent-foreground: #f5f5f2;
 
   /* Status */
-  --destructive: #e06b68;
+  --destructive: #f87171;
 
   /* Forms */
-  --border: #35403e;
-  --input: #35403e;
-  --ring: #4fa6a0;
+  --border: #333333;
+  --input: #3a3a3a;
+  --ring: #f5f5f2;
 
   /* Data visualization */
-  --chart-1: #4fa6a0;
-  --chart-2: #f1846a;
-  --chart-3: #76a681;
-  --chart-4: #d5a24c;
-  --chart-5: #a6ada8;
+  --chart-1: #f5f5f2;
+  --chart-2: #a3a3a0;
+  --chart-3: #737373;
+  --chart-4: #d4d4d0;
+  --chart-5: #525252;
 
   /* Sidebar */
-  --sidebar: #1a2221;
-  --sidebar-foreground: #f3f1e9;
-  --sidebar-primary: #4fa6a0;
-  --sidebar-primary-foreground: #10201f;
-  --sidebar-accent: #222c2a;
-  --sidebar-accent-foreground: #f3f1e9;
-  --sidebar-border: #35403e;
-  --sidebar-ring: #4fa6a0;
+  --sidebar: #191919;
+  --sidebar-foreground: #f5f5f2;
+  --sidebar-primary: #f5f5f2;
+  --sidebar-primary-foreground: #111111;
+  --sidebar-accent: #242424;
+  --sidebar-accent-foreground: #f5f5f2;
+  --sidebar-border: #333333;
+  --sidebar-ring: #f5f5f2;
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
   html {
     @apply font-sans;
   }

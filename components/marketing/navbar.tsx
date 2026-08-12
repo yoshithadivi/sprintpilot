@@ -17,7 +17,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link
             href="/"
-            className="text-xl font-semibold tracking-tight text-foreground"
+            className="text-lg font-semibold tracking-[-0.02em] text-foreground"
           >
             SprintPilot
           </Link>
