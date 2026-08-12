@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import Navbar from '../components/marketing/navbar'
+import Navbar from '../../components/marketing/navbar'
 
 export const metadata: Metadata = {
   title: 'Marketing - SprintPilot',
