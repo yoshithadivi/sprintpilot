@@ -39,7 +39,7 @@ export function FeatureShowcase({
                 {number}
               </span>
 
-              <span className="text-sm font-semibold uppercase tracking-[0.12em] text-primary">
+              <span className="font-heading text-sm font-semibold uppercase tracking-[0.12em] text-primary">
                 {eyebrow}
               </span>
             </div>

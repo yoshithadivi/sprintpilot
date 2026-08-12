@@ -11,7 +11,7 @@ export default function Hero() {
       <Container>
         <div className="grid items-center gap-16 lg:grid-cols-[0.9fr_1.1fr]">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.12em] text-primary">
+            <p className=" font-heading text-sm font-semibold uppercase tracking-[0.12em] text-primary">
               Project management for modern teams
             </p>
 
